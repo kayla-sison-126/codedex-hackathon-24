@@ -4,7 +4,8 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; 
-}
+    cursor: url("images/pokeball-cursor.png"), auto;
+} 
 
 /* FRAME ---------------------- */
 #frame-upper {
@@ -117,6 +118,7 @@ body {
 }
 #navbar a:hover {
     color:#5b5bfa;
+    cursor: url("images/pika-cursor-2.png"), auto;
 }
 .main-page-link{
     font-weight: bold;
@@ -165,6 +167,10 @@ header {
     border: 5px outset grey;
 }
 
+#rainbow-text {
+    transition: color 0.75s ease-in-out;
+}
+
 /* RIGHT SIDE */
 
 #header-right {
@@ -196,7 +202,7 @@ header {
 
 #header-right-bottom-sub {
     display: flex;
-    color: #fdff00;
+    color: blueviolet;
     align-self: center;
     gap: 15px;
 }
@@ -205,6 +211,7 @@ header {
     color: blue;
     font-weight: bold;
     font-style: italic;
+    cursor: url("images/pika-cursor-2.png"), auto;
 }
 
 #header-right-top a:hover { /* hovering over links */
@@ -287,4 +294,55 @@ header {
     text-align: left;
     padding-left: 25px;
     line-height: 10px;
+}
+
+/* gym-leaders.html ---------------------------------- */
+
+.pokemon-building-title {
+    scroll-margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    justify-content: space-between;
+}
+
+.pokemon-building {
+    scroll-margin-top: 80px;
+    background-color: rgb(193, 193, 193);
+    padding: 20px;
+    text-align: center;
+    border: 2px outset grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-building-top {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 25px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 18px;
+}
+
+.pokemon-building-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 12px;
+    text-align: left;
+}
+
+.pokemon-building-list {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    text-align: left;
+    line-height: 15px;
+}
+
+#pokedex {
+    scroll-margin-top: 80px;
 }

@@ -1,22 +1,19 @@
 TODO:
-- gym leaders page
-   - have a section for each gym leader
-   - also have a section at the end for indigo plateau/elite four
-- pokemon page
-   - pokemon center info
-   - pokemart info
-   - list of all pokemon (maybe make it make look like a pokedex?)
 - tourism
    - write a blurb or smth about touristy stuff to do like museum and shopping
+   - add photos and gifs
 
 
-MAYBES:
+IF TIME PERMITS:
+- hoverable pokemon info
 - i btn in the top right corner, explaining what this project is
-- button to toggle the frame (browser window frame)
-- white horizontal lines spanning the screen (to look like an old monitor)
 - add music! chiptune?
    - music for each town?
-- custom cursor
-- rainbow text
-- more kanji?
+- fix spacing in header
+
+
+maybe:
+- white horizontal lines spanning the screen (to look like an old monitor)
+- button to toggle the frame (browser window frame)
 - change header photo to not be just a house
+- more kanji?

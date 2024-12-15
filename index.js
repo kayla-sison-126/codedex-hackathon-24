@@ -1,4 +1,4 @@
-//gets the time and date
+// get the time and date ----------------------------------------------------
 function updateTime() {
     const curr = new Date();
     let hours = curr.getHours();
@@ -10,6 +10,9 @@ function updateTime() {
     if (hours > 12) { // formatting for hrs
         hours-= 12;
         amOrPm = "PM";
+    } else if (hours == 0) { // for 12 am
+        hours = 12;
+        amOrPm = "AM";
     }
     mins = mins < 10 ? '0' + mins : mins; // formatting for minutes
 
@@ -19,3 +22,16 @@ function updateTime() {
 
 setInterval(updateTime, 1000); // update time
 updateTime(); // run fct immediately!
+
+
+// rainbow text ---------------------------------------------------
+const rainbowText = document.getElementById("rainbow-text");
+const rainbowColors = ["red", "orange", "yellow", "limegreen", "blue", "blueviolet"];
+let colorIndex = 0;
+
+function animateRainbow() {
+    rainbowText.style.color = rainbowColors[colorIndex];
+    colorIndex = (colorIndex+1) % rainbowColors.length;
+}
+
+setInterval(animateRainbow, 500);
