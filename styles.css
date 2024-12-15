@@ -113,7 +113,7 @@ body {
     background-color:#0097b2;
     border: 5px outset grey;
     padding: 4px;
-    padding-right: 16px;
+    padding-right: 17px;
     font-style: italic;
 }
 #navbar a:hover {
@@ -138,9 +138,10 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
-#header-left {
+#header-left, #header-right {
     display: flex;
     flex-direction: column;
 }
@@ -159,6 +160,7 @@ header {
     font-style: italic;
     border: 5px outset grey;
     box-sizing: border-box; /*so the border is included in the total width*/
+    height: 40px;
 }
 
 #header-left-bottom {
@@ -167,6 +169,7 @@ header {
     align-items: center;
     border: 5px outset grey;
     box-sizing: border-box; /*so the border is included in the total width*/
+    height: 185px;
 }
 
 #rainbow-text {
@@ -175,18 +178,12 @@ header {
 
 /* RIGHT SIDE */
 
-#header-right {
-    margin-top: 12px;
-    display: flex;
-    flex-direction: column;
-}
-
 #header-right-top {
     display: flex;
     gap: 25px;
     align-self: center;
     font-size: 14px;
-    padding-bottom: 10px;
+    height: 40px;
 }
 
 #header-right-bottom {
@@ -199,7 +196,7 @@ header {
     border: 5px outset grey;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    height: 185px; /* --- */
+    height: 185px;
     width: 420px;
     box-sizing: border-box; /*so the border is included in the total width*/
 }
