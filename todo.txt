@@ -1,19 +1,14 @@
 TODO:
-- tourism
-   - write a blurb or smth about touristy stuff to do like museum and shopping
-   - add photos and gifs
-
 
 IF TIME PERMITS:
-- hoverable pokemon info
 - i btn in the top right corner, explaining what this project is
 - add music! chiptune?
-   - music for each town?
-- fix spacing in header
+   - music for each town
+- publish with github pages
+- hoverable pokemon info
 
 
 maybe:
 - white horizontal lines spanning the screen (to look like an old monitor)
-- button to toggle the frame (browser window frame)
 - change header photo to not be just a house
 - more kanji?
