@@ -1,10 +1,7 @@
 TODO:
-- footer
-- towns page
-   - have a section for each town
 - gym leaders page
-   - have a section for each gym leaders
-   - also have a section at the end for indigo plateau
+   - have a section for each gym leader
+   - also have a section at the end for indigo plateau/elite four
 - pokemon page
    - pokemon center info
    - pokemart info
@@ -17,3 +14,6 @@ MAYBES:
 - i btn in the top right corner, explaining what this project is
 - button to toggle the frame (browser window frame)
 - white horizontal lines spanning the screen (to look like an old monitor)
+- add music! chiptune?
+   - music for each town?
+- custom cursor
