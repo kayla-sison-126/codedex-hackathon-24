@@ -17,3 +17,6 @@ MAYBES:
 - add music! chiptune?
    - music for each town?
 - custom cursor
+- rainbow text
+- more kanji?
+- change header photo to not be just a house

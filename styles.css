@@ -212,11 +212,11 @@ header {
 }
 
 
-/* --------------------------------------------------- */
+/* towns.html ---------------------------------------- */
 
 .town {
     scroll-margin-top: 80px;
-    background-color: #fdf254;
+    background-color: rgb(193, 193, 193);
     padding: 10px;
     text-align: center;
     border: 2px outset grey;
@@ -228,6 +228,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 5px;
+    border: 2px outset lightgrey;
 }
 
 .town-bottom {
@@ -237,4 +238,53 @@ header {
     gap: 10px;
     font-size: 12px;
     text-align: left;
+}
+
+/* gym-leaders.html ---------------------------------- */
+
+#gym-leader-border {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 50px;
+    align-items: baseline;
+}
+
+.gym-leader {
+    scroll-margin-top: 80px;
+    background-color: rgb(193, 193, 193);
+    padding: 10px;
+    text-align: center;
+    border: 2px outset grey;
+    display: flex;
+    flex-direction: row;
+}
+
+.gym-leader-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.gym-leader-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border: 2px outset lightgrey;
+    width: 150px;
+}
+
+.gym-leader-right {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    gap: 10px;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 25px;
+    line-height: 10px;
 }
