@@ -199,7 +199,7 @@ header {
     border: 5px outset grey;
     font-family: 'Courier New', Courier, monospace;
     color: white;
-    height: 186.5px;
+    height: 186px; /* --- */
     width: 420px;
     box-sizing: border-box; /*so the border is included in the total width*/
 }
