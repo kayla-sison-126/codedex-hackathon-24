@@ -113,7 +113,7 @@ body {
     background-color:#0097b2;
     border: 5px outset grey;
     padding: 4px;
-    padding-right: 17px;
+    padding-right: 15px;
     font-style: italic;
 }
 #navbar a:hover {
@@ -144,6 +144,7 @@ header {
 #header-left, #header-right {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 #header-left-top {
@@ -206,6 +207,7 @@ header {
     color: blueviolet;
     align-self: center;
     gap: 15px;
+    height: 50px;
 }
 
 #header-right-top a { /* links */
