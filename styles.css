@@ -1,6 +1,6 @@
 /* HTML ------------------------*/
 html {
-    background-image: url("images/pokemon_bg.png");
+    background-image: url("images/pokemon-bg-hi-sat.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover; 
@@ -76,10 +76,31 @@ html {
     border: 5px outset grey;
 }
 
+/* FOOTER --------------------- */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(145, 252, 143);
+
+    text-align: center;
+    font-size: 10px;
+    font-style: italic;
+    line-height: 2px;
+}
+
+footer a:hover {
+    color:#5b5bfa;
+}
+
 /* BODY ----------------------- */
 body {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
 }
 
 /* MAIN PAGE  ------------------ */
@@ -96,7 +117,7 @@ body {
     font-style: italic;
 }
 #navbar a:hover {
-    color:#3737be;
+    color:#5b5bfa;
 }
 .main-page-link{
     font-weight: bold;
@@ -105,7 +126,7 @@ body {
 
 #page-content {
     border: 5px outset grey;
-    width: 509px;
+    width: 508px;
     padding: 20px;
     box-sizing: border-box;
     background-color: rgba(255, 255, 255, 0.635);
@@ -157,14 +178,14 @@ header {
     display: flex;
     gap: 15px;
     align-self: center;
-    font-size: 15px;
+    font-size: 14px;
     padding-bottom: 10px;
 }
 
 #header-right-bottom {
     display: flex;
     flex-direction: column;
-    height: 161px;
+    height: 162px;
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;

@@ -1,2 +1,19 @@
+TODO:
+- footer
+- towns page
+   - have a section for each town
+- gym leaders page
+   - have a section for each gym leaders
+   - also have a section at the end for indigo plateau
+- pokemon page
+   - pokemon center info
+   - pokemart info
+   - list of all pokemon (maybe make it make look like a pokedex?)
+- tourism
+   - write a blurb or smth about touristy stuff to do like museum and shopping
 
-- 
+
+MAYBES:
+- i btn in the top right corner, explaining what this project is
+- button to toggle the frame (browser window frame)
+- white horizontal lines spanning the screen (to look like an old monitor)

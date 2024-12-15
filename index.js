@@ -1,5 +1,4 @@
 //gets the time and date
-
 function updateTime() {
     const curr = new Date();
     let hours = curr.getHours();
@@ -14,10 +13,9 @@ function updateTime() {
     }
     mins = mins < 10 ? '0' + mins : mins; // formatting for minutes
 
-    const timeAsString = `${month}/${day}/1999 ${hours}:${mins}` + " " + amOrPm; // create the string for the time
+    const timeAsString = `${month}/${day}/1999 ${hours}:${mins}` + " " + amOrPm; // create string for the time
     document.getElementById("time").innerHTML = timeAsString; // display the string
 }
 
-
 setInterval(updateTime, 1000); // update time
-updateTime(); // run fct immediately
+updateTime(); // run fct immediately!
